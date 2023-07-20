@@ -73,6 +73,9 @@ body{
 .link li{
     width: 306px;
 }
+.link li:nth-child(4){
+    text-align: right;
+}
 .link a{
     color: #D1D1D1;
     text-decoration: none;
@@ -182,11 +185,58 @@ body{
     width: 162px;
 }
 
+.container5th{
+    background: #FFFFFF;
+    padding: 160px 0;
+}
+
+.container2{
+    width: 1296px;
+    margin: 0 auto;
+}
+.projects h2{
+    color: black;
+    text-align: right;
+}
+.project-photos{
+    display: flex;
+}
+.block2 div:nth-child(1){
+    display: flex;
+}
+.block2 div:nth-child(2){
+    display: flex;
+}
+
+.block2 img{
+    display: block;
+}
+
+.footer p{
+    padding: 40px 0;
+    text-align: center;
+}
+
+.flex-row{
+    display: flex;
+}
+ 
+
 h2{
     font-size: 64px;
     line-height: 96px;
     color:#FFFFFF;
 }
+
+.p-white{
+    font-size: 24px;
+    line-height: 36px;
+    color:#FFFFFF;
+}
+
 .mr-24{
     margin-right: 24px;
+}
+.mb-28{
+    margin-bottom: 28px;
 }
