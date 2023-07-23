@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-/**CSS**/
+/*************CSS***************/
 
 body{
     font-family: 'Bruno Ace SC', cursive;
@@ -65,8 +65,7 @@ body{
 
 .link{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: space-between;   
     padding-top: 40px;
    
 }
@@ -94,12 +93,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-.bio-text p{
-    font-size: 64px;
-    line-height: 96px;
-    color: #FFFFFF;
-    
-}
+
 .name{
     text-align: right;
 }
@@ -121,19 +115,6 @@ body{
     justify-content: center;
     width: 526px;
 }
-.introduce h2{
-    font-size: 64px;
-    line-height: 96px;
-    margin-bottom: 36px;
-    color:#FFFFFF;
-}
-.introduce p{
-    font-size: 24px;
-    line-height: 36px;
-    margin-bottom: 24px;
-    color:#FFFFFF;
-
-}
 
 .container3rd{
     background: #FFFFFF;
@@ -154,27 +135,16 @@ body{
     border: 1px solid #E3E3E3;
     padding: 16px;
 }
-.card h3{
-    font-size: 20px;
-    line-height: 30px;
-}
-.card p{
-    font-size: 16px;
-    line-height: 24px;
-}
+
 
 .about{
     margin-top: 160px;
 }
-.about h3{
-    font-size: 64px;
-    line-height: 96px;
-    margin-bottom: 36px;
+.about h2{
+    color: #000000;
 }
 .about p{
     width: 526px;
-    font-size: 24px;
-    line-height: 36px;
 }
 
 .container4th{
@@ -221,11 +191,15 @@ body{
     display: flex;
 }
  
-
 h2{
     font-size: 64px;
     line-height: 96px;
     color:#FFFFFF;
+}
+
+h3{
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .p-white{
@@ -234,9 +208,21 @@ h2{
     color:#FFFFFF;
 }
 
+.p-black{
+    font-size: 24px;
+    line-height: 36px;
+}
+
+
 .mr-24{
     margin-right: 24px;
 }
 .mb-28{
     margin-bottom: 28px;
+}
+.mb-24{
+    margin-bottom: 24px;
+}
+.mb-36{
+    margin-bottom: 36px;
 }
